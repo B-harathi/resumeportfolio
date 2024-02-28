@@ -1,0 +1,516 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bharathi{
+    margin-top: 50px;
+   
+}
+.left{
+    background-color: slategray;
+    width:725px;
+    height: 770px;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.right{
+    background-color: rgb(82, 133, 184);
+    width:730px;
+    height: 770px;
+    position: absolute;
+    top: 0px;
+    left: 708px;
+    z-index: -1;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: slategray;
+    position: absolute;
+    left: 658px;
+    top: 530px;
+    transform:rotate(45deg);
+}
+.kila svg{
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    top: 550px;
+    left: 700px;
+    animation-name: arrow;
+    animation-duration: 2s;
+}
+@keyframes arrow {
+    0%{
+        transform: translateY(25px);
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+    }
+    
+}
+
+.name{
+    margin-left: 200px;
+    position: absolute;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -20px;
+    z-index: -1;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 40%;
+    z-index: 1;
+    
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+}
+.developer{
+    text-align: center;
+    margin-top: 270px;
+}
+.menu a:hover{
+    animation-name: below;
+    animation-duration: 2s;
+}
+@keyframes below {
+    0%{
+        text-decoration: underline;
+        animation-timing-function: ease-in-out;
+    }
+    
+}
+/* .white{
+    background-color: aliceblue;
+    position: sticky;
+    height: 50px;
+    top: 0%;
+} */
+.aboutme{
+    margin-top: 400px;
+    width: 250px;
+}
+.photo{
+    background-color: rgb(136, 135, 136);
+    height: 750px; 
+    width: 550px;  
+    margin-top: -105px;
+    margin-left: 158px;
+}
+.photo img{
+    margin-top: 100px;
+}
+.namebh{
+    margin-left: 800px;
+    position: absolute;
+    top: 800px;
+}
+table th{
+    text-align: left;
+    padding-top: 10px;
+}
+table td{
+    color: rgb(151, 145, 145);
+    padding-top: 10px;
+}
+.project{
+    margin-top: 50px;
+}
+.cv a{
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    left: 60px;
+    top: 520px;
+}
+.cv a:hover{
+    color: black;
+    animation-name: cover;
+    animation-duration: 5s;
+}
+@keyframes cover {
+    0%{
+        animation-timing-function: ease-out;
+    }
+    
+}
+.language{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 50px;
+    gap: 100px;
+}
+.language img{
+    height: 100px;
+}
+.menubar{
+    left: 100px;
+    margin-top: 100px;
+}
+.menubar ul li{
+    list-style-type: none;
+}
+.menubar li{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.cap svg{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 50%;
+}
+.education{
+    margin-top: -200px;
+    margin-left: 400px;
+
+}
+.school1{
+    padding-top: 30px;
+    
+
+}
+.school2{
+    padding-top: 30px;
+
+}
+.cap{
+    display: flex;
+}
+.experience{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.job1{
+    margin-top: 30px;
+}
+.job2{
+    margin-top: 30px;
+}
+.job3{
+    margin-top: 30px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.skills p{
+    font-size: smaller;
+}
+/* .java .html .css .js{ */
+    .js{
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 250px;
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+/* .vattam{
+    border: 5px solid grey;
+    border-top: 5px soild skyblue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 20px;
+} */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .vattam {
+    border: 5px solid grey;
+    border-top: 5px solid skyblue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 20px;
+    animation: spin 2s linear infinite; /* Apply the spin animation */
+  }
+  .percent{
+      margin-left: 50px;
+      margin-top: 55px;
+  }
+
+  
+.week{
+    display: flex;
+    margin-top: 90px;
+    gap: 20px;
+}
+.java{
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 250px;
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.html{
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 250px;
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.css{
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 250px;
+    height: 300px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.line{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-left: 400px;
+    gap: 50px;
+}
+.cyl{
+    border: 2px solid black;
+    height: 15px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+ .inner1{
+    background-color: blue;
+    height: 15px;
+    width: 200px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -15px;
+} 
+ .inner2{
+    background-color: blue;
+    height: 15px;
+    width: 250px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -15px;
+} 
+ .inner3{
+    background-color: blue;
+    height: 15px;
+    width: 330px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -15px;
+} 
+ .inner4{
+    background-color: blue;
+    height: 15px;
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -15px;
+} 
+ .inner5{
+    background-color: blue;
+    height: 15px;
+    width: 100px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -15px;
+} 
+ .inner6{
+    background-color: blue;
+    height: 15px;
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -15px;
+} 
+.awards{
+    margin-left: 400px;
+}
+
+.design{
+    margin-left: 190px;
+}
+.work{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.web{
+    box-shadow: 5px 5px 5px 5px grey;
+    padding-bottom: 20px;
+    width: 450px;
+}
+.web:hover{
+    background-color: rgb(129, 129, 214);
+}
+.mini{
+    text-align: center;
+}
+.pugaipadam{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 50px;
+}
+.pugaipadam img:hover{
+    opacity: 2;
+}
+.hide{
+    margin-left: 100px;
+    position: absolute;
+    top: 5600px;
+    color: aliceblue;
+}
+.hide img:hover{
+    background-color: aquamarine;
+}
+/* .hide:hover{
+    opacity:3;
+} */
+/* .hide {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 20px;
+  }
+.hide img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .hover-area:hover .hidden-text {
+    opacity: 1;
+  } */
+  .happy{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-left: 300px;
+      margin-right: 200px;
+  }
+  .happy div{
+      box-shadow: 5px 5px 5px 5px grey,5px 10px 5px 5px grey;
+      width: 200px;
+      text-align: center;
+  }
+  .happy h2{
+      color: blue;
+  }
+  .blog{
+      background: url(./images/new/pexels-philippe-donn-1169754.jpg);
+      background-position: center;
+      background-color: rgb(151, 151, 224);
+      color: rgb(255, 255, 255);
+      margin-top: 50px;
+      height: 400px;
+      text-align: center;
+  }
+  .blog div{
+      padding-top: 160px;
+  }
+  .contact{
+      text-align: center;
+  }
+  .address svg{
+      height: 50px;
+      width: 50px;
+      color: aliceblue;
+      background-color: rgb(97, 97, 224);
+      border-radius: 50px;
+  }
+  .address{
+      border: 2px solid gray;
+      width: 280px;
+      box-shadow: 5px 5px 5px 5px grey;
+      height: 170px;
+      padding-top: 30px;
+      gap: 20px;
+      background: linear-gradient(rgb(184, 219, 233),rgb(199, 197, 197),rgb(245, 206, 212));
+  }
+  .github{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 50px;
+      padding: 10px;   
+  }
+  .capture img{
+      margin-top: 70px;
+      background-color: grey;
+      margin-left: 100px;
+  }
+  /* .aa{
+      background-color: grey;
+      height: 400px;
+      width: 400px;
+  } */
+  .word{
+      position: absolute;
+      left: 800px;
+      top: 6900px;
+  }
+  .capture{
+    background-color: rgb(248, 247, 247);
+  }
+  .footer{
+      background-color: rgb(15, 14, 14);
+      height: 500px;
+      margin-top: 50px;
+      color: rgb(174, 175, 177);
+      display: flex;
+      gap: 200px;
+      padding-top: 100px;
+      padding-left: 20px;
+      /* display: grid;
+      grid-template-columns: auto auto auto auto; *//
+  }
+  .contact li svg{
+      height: 20px;
+      width: 20px;
+      color: aliceblue;
+  }
+  .king{
+      margin-left: 100px;
+  }
+  .data li svg{
+      height: 20px;
+      width: 20px;
+      color: aliceblue;
+  }
+  .contact li{
+    list-style-type: none;
+  }
+  .data li{
+    list-style-type: none;
+  }
+  .contact{
+      color: aliceblue;
+  }
+  .great svg{
+      height: 20px;
+      width: 20px;
+      color: aliceblue;
+  }
